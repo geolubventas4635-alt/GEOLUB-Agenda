@@ -33,18 +33,22 @@ button,input,textarea{font:inherit}
 
 /* CABECERA */
 .hero{
-  min-height:230px;
-  background:
-    linear-gradient(90deg,rgba(4,28,64,.96),rgba(5,38,81,.88)),
-    url("./taller-elevadora.jpg") center/cover no-repeat;
-  color:#fff;
-  display:grid;
-  grid-template-columns:300px 1fr 260px;
-  align-items:center;
-  gap:25px;
-  padding:25px 34px;
+  width:100%;
+  min-height:0;
+  padding:0;
+  margin:0;
+  display:block;
+  background:#071f46;
   border-bottom:4px solid #fff;
   box-shadow:0 5px 20px #0003;
+}
+
+.hero > img{
+  display:block;
+  width:100%;
+  height:auto;
+  margin:0;
+  padding:0;
 }
 .brandBox{
   background:#fff;
