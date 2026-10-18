@@ -32,12 +32,12 @@ html,body{
 button,input,textarea{font:inherit}
 
 /* CABECERA */
-.hero{
+ .hero{
   width:100%;
-  min-height:0;
+  height:320px;
   padding:0;
   margin:0;
-  display:block;
+  overflow:hidden;
   background:#071f46;
   border-bottom:4px solid #fff;
   box-shadow:0 5px 20px #0003;
@@ -46,10 +46,12 @@ button,input,textarea{font:inherit}
 .hero > img{
   display:block;
   width:100%;
-  height:auto;
+  height:100%;
+  object-fit:cover;
+  object-position:center;
   margin:0;
   padding:0;
-}
+} 
 .brandBox{
   background:#fff;
   border-radius:24px;
